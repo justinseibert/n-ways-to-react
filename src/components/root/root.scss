@@ -1,0 +1,21 @@
+.hello {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  &.inverse {
+    background: #000;
+    color: #FFF;
+  }
+}
+.goodbye {
+  overflow: hidden;
+  transition: width 100ms;
+}
+h1 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+}

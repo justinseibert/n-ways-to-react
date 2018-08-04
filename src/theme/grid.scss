@@ -1,0 +1,9 @@
+.container {
+  @extend body;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
